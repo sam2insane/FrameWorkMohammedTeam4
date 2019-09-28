@@ -46,6 +46,7 @@ public class CommonAPI {
         driver.navigate().to(url);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+
     }
 
     public void getLocalDriver(String browserName, String browserVersion, String url){
