@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
-        <module name="BestBuy" />
+        <module name="AliBaba" />
         <module name="Amazon" />
+        <module name="BestBuy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
