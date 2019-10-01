@@ -31,7 +31,5 @@ public class TestUsaHomepage extends CommonAPI {
             System.out.println("Passed");
         }else
             System.out.println("Failed");
-
-
-    }
+     }
 }

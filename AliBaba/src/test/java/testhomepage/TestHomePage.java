@@ -167,7 +167,7 @@ public class TestHomePage extends CommonAPI {
         testalibaba.setAboutalibaba();
         //driver.navigate().to(url);
     }
-    @Test
+    @Test (priority = 1)
     public void checkturkry(){
         testalibaba.setTurkey();
         //driver.navigate().to(url);
@@ -186,14 +186,6 @@ public class TestHomePage extends CommonAPI {
     public void checksouthkorea(){
         testalibaba.setSouthkorea();
         //driver.navigate().to(url);
-    }
-    @Test
-    public void clickrandomtab(){
-        testalibaba.setRandomtab();
-    }
-    @Test
-    public void clickrandom2(){
-        testalibaba.setRandomtab2();
     }
     @Test
     public void clickhelpcenter(){testalibaba.setHelpcenter();

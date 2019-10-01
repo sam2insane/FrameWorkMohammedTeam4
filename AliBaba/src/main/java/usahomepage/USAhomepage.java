@@ -15,9 +15,6 @@ public class USAhomepage extends CommonAPI {
             apperial.click();
     }
 
-
-
-
     public void setAgriculture(){
         agriculture.click();
 

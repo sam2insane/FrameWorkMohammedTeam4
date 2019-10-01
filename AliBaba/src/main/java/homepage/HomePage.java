@@ -7,12 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 
+
 public class HomePage extends CommonAPI {
     @FindBy(xpath ="//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[4]/a[1]")
     WebElement machinary;
     @FindBy(xpath = "//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[1]/a[1]")
     WebElement consumer;
-
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h2[1]/a[1]")
     WebElement blackview;
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[2]/h2[1]/a[1]")
@@ -28,7 +28,7 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h2[1]/a[1]")
     WebElement androidphone;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[2]/div[1]/div[1]/div[1]/h3[1]")
-    WebElement categoris;
+    WebElement categories;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[5]/ul[1]/li[3]/a[1]")
     WebElement tradeshows;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[5]/ul[1]/li[5]/a[1]")
@@ -41,8 +41,6 @@ public class HomePage extends CommonAPI {
     WebElement serviceandmembership;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[3]/ul[1]/li[3]/span[1]")
     WebElement helpcommuinity;
-//    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]")
-//    WebElement products;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]")
     WebElement search;
     @FindBy(xpath = "//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[2]/a[1]")
@@ -71,13 +69,13 @@ public class HomePage extends CommonAPI {
     WebElement aboutalibaba;
     @FindBy(xpath = "//*[@id=\"home2017_services\"]/div[1]/div[2]/ul[1]/li[3]/a[1]")
     WebElement turkey;
-    @FindBy(xpath = "//*[@id=\"home2017_services\"]/div/div[2]/ul/li[3]/a/span")
+    @FindBy(xpath = "//*[@id=\"home2017_services\"]/div/div[2]/ul/li[4]/a/span")
     WebElement thailand;
     @FindBy(xpath = "//*[@id=\"home2017_services\"]/div[1]/div[2]/ul[1]/li[5]/a[1]")
     WebElement malaysia;
     @FindBy(xpath = "//*[@id=\"home2017_services\"]/div[1]/div[2]/ul[1]/li[7]/a[1]")
     WebElement southkorea;
-    @FindBy(xpath = "//*[@id=\"home2017_countries\"]/div/div[2]/ul/div[1]/a/div[3]/div[2]/h3")
+    @FindBy(xpath = "//*[@id=\"home2017_services\"]/div/div[2]/ul/li[7]/a/span")
     WebElement randomtab;
     @FindBy(xpath = "//*[@id=\"home2017_countries\"]/div/div[2]/ul/div[2]/a/div[3]/div[2]/p")
     WebElement randomtab2;
@@ -99,26 +97,19 @@ public class HomePage extends CommonAPI {
     WebElement readytoship;
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div/div/div[8]/div/div/div[2]/h2/a")
     WebElement bed;
-
     public void setBed(){
         bed.click();
     }
-
     public void setReadytoship(){
         readytoship.click();
     }
-
     public void setBuissnesidentity(){buissnesidentity.click();}
-
-
     public void setSitemap(){
         if(sitemap.isDisplayed())
             sitemap.click();
         String title = driver.getTitle();
         System.out.println(title);
     }
-
-
     public void setReport(){
         report.click();
     }
@@ -128,11 +119,7 @@ public class HomePage extends CommonAPI {
             learningcenter.click();
         String url = driver.getCurrentUrl();
         System.out.println(url);
-
-
     }
-
-
     public void setPolicy(){
         policy.click();
     }
@@ -144,18 +131,7 @@ public class HomePage extends CommonAPI {
     public void setHelpcenter(){
         if(helpcenter.isDisplayed())
             helpcenter.click();
-
     }
-
-    public void setRandomtab2(){
-        randomtab2.click();}
-
-
-
-    public void setRandomtab(){
-        randomtab.click();
-    }
-
     public void setSouthkorea(){
         if(southkorea.isDisplayed()){
             System.out.println("passed");
@@ -163,11 +139,6 @@ public class HomePage extends CommonAPI {
             System.out.println("failed");
         southkorea.click();
     }
-
-
-
-
-
     public void setMalaysia(){
         if(malaysia.isDisplayed()){
             System.out.println("passed");
@@ -175,9 +146,6 @@ public class HomePage extends CommonAPI {
             System.out.println("failed");
         malaysia.click();
     }
-
-
-
     public void setThailand(){
         if(thailand.isDisplayed()){
             System.out.println("passed");
@@ -185,34 +153,25 @@ public class HomePage extends CommonAPI {
             System.out.println("failed");
         thailand.click();
     }
-
     public void setTurkey(){
         if(turkey.isDisplayed()){
             System.out.println(("passed"));
         }else
             System.out.println("failed");
         turkey.click();
-
     }
-
     public void setAboutalibaba(){
         if(aboutalibaba.isDisplayed()) {
             System.out.println("Passed");
         }else
             System.out.println("Failed");
-
     }
-
-
     public void setUSA(){
         if(USA.isDisplayed()) {
             System.out.println("passed");
         }else System.out.println("Failed");
         USA.click();
-
-
     }
-
     public void setVietnum(){
         if(vietnum.isDisplayed()){
             System.out.println("passed");
@@ -220,10 +179,7 @@ public class HomePage extends CommonAPI {
             System.out.println("Failed");
 
         vietnum.click();
-
     }
-
-
     public void setIndia(){
         india.click();    }
 
@@ -330,8 +286,8 @@ public class HomePage extends CommonAPI {
 
 
     public void setCategoris(){
-    if(categoris.isDisplayed())
-        categoris.click();
+    if(categories.isDisplayed())
+        categories.click();
 
 
 

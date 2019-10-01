@@ -16,10 +16,10 @@
     <test name="AliBaba">
         <parameter name="url" value ="https://www.alibaba.com/"/>
         <classes>
-<!--            <class name="testsignin.TestSignIn"/>-->
+            <class name="testsignin.TestSignIn"/>
             <class name="testfurniturepage.TestFurniturePage"/>
-<!--            <class name="testhomepage.TestHomePage"/>-->
-<!--            <class name="testusahomepage.TestUsaHomepage"/>-->
+            <class name="testhomepage.TestHomePage"/>
+            <class name="testusahomepage.TestUsaHomepage"/>
         </classes>
     </test>
 </suite>

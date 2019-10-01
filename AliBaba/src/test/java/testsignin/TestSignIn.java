@@ -27,10 +27,7 @@ public class TestSignIn extends CommonAPI {
         testsignin.ClickSignIn();
         testsignin.signIN();
     }
-
-
-
-    }
+}
 
 
 

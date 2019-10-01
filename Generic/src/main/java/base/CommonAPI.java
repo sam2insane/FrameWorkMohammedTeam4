@@ -1,4 +1,6 @@
 package base;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +14,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,6 +41,7 @@ public class CommonAPI {
     public static final String SAUCE_URL = "https://" + SAUCE_USERNAME + ":" + SAUCE_AUTOMATE_KEY + "@ondemand.saucelabs.com:80/wd/hub";
     public static WebDriver driver = null;
     //Extent Report Setup
+    public static ExtentReports extent;
 
     //screenshot
     public static void captureScreenshot(WebDriver driver, String screenshotName) {
@@ -106,8 +111,8 @@ public class CommonAPI {
         if (platform.equalsIgnoreCase("mac") && browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "");
         } else if (platform.equalsIgnoreCase("windows") && browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\samia\\IdeaProjects\\WebAutomationAdnan\\Generic\\src\\main\\resources\\drivers\\chromedriver.exe");
-    }
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\samia\\IdeaProjects\\FrameWorkMohammedTeam4\\Generic\\src\\BrowserDriver\\chromedriver.exe");
+        }
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -119,7 +124,7 @@ public class CommonAPI {
     public static void getChrpmeOptions(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\samia\\IdeaProjects\\WebAutomationAdnan\\Generic\\src\\main\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -132,17 +137,17 @@ public class CommonAPI {
      * @param driver The webdriver instance
      * @Author - peoplenTech
      */
-    public static void getScreenshot(WebDriver driver) {
-        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
-        Date date = new Date();
-        String name = df.format(date);
-        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(file, new File("src/screenshots/" + name + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+//    public static void getScreenshot(WebDriver driver) {
+//        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+//        Date date = new Date();
+//        String name = df.format(date);
+//        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        try {
+//            FileUtils.copyFile(file, new File("src/screenshots/" + name + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     public static String convertToString(String st) {
         String splitString = "";
@@ -228,8 +233,18 @@ public class CommonAPI {
 
     //****************************
 
+    @BeforeSuite
+    public void extentSetup(ITestContext context) {
+        ExtentManager.setOutputDirectory(context);
+        extent = ExtentManager.getInstance();
+    }
 
-
+    @BeforeMethod
+    public void startExtent(Method method) {
+        String className = method.getDeclaringClass().getSimpleName();
+        ExtentTestManager.startTest(method.getName());
+        ExtentTestManager.getTest().assignCategory(className);
+    }
 
     protected String getStackTrace(Throwable t) {
         StringWriter sw = new StringWriter();
@@ -238,12 +253,39 @@ public class CommonAPI {
         return sw.toString();
     }
 
+    @AfterMethod
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+        for (String group : result.getMethod().getGroups()) {
+            ExtentTestManager.getTest().assignCategory(group);
+        }
+
+        if (result.getStatus() == 1) {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+        } else if (result.getStatus() == 2) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+        } else if (result.getStatus() == 3) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+        }
+
+        ExtentTestManager.endTest();
+        extent.flush();
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
+    }
+
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
 
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
 
     @AfterClass
     public void quitDriver() {
@@ -420,11 +462,10 @@ public class CommonAPI {
     public void getLinks(String locator) {
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
-
-    //Taking Screen shots
+    //screenshot
     public void takeScreenShot() throws IOException {
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        //FileUtils.copyFile(file, new File("screenShots.png"));
+        FileUtils.copyFile(file, new File("C:\\Users\\samia\\IdeaProjects\\FrameWorkMohammedTeam4\\Generic\\src\\main\\java\\utility\\ScreenShots.png"));
     }
 
     //Synchronization
