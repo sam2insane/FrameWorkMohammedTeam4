@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\samia\IdeaProjects\FrameWorkMohammedRTea4\Cnn\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify Go To Market in Business Page]]>
+    </line>
+    <line>
+      <![CDATA[TestHomPage  Veryfy Home Button]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify IMAGE in Business Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify Menu Button in Business Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Search forNike]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify url in U.S. Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify Parenting Content in Health Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify Content Politics Health Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify World Asia News in Health Page]]>
+    </line>
+    <line>
+      <![CDATA[Hompage  -> Verify IMAGE in Health Page]]>
+    </line>
+  </reporter-output>
+  <suite name="cnn" duration-ms="37785" started-at="2019-10-05T11:06:25Z" finished-at="2019-10-05T11:07:02Z">
+    <groups>
+    </groups>
+    <test name="CnnHome" duration-ms="37785" started-at="2019-10-05T11:06:25Z" finished-at="2019-10-05T11:07:02Z">
+      <class name="testhompage.TestHomPage">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="extentSetup" is-config="true" duration-ms="84" started-at="2019-10-05T11:06:25Z" finished-at="2019-10-05T11:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18bc345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\samia\IdeaProjects\FrameWorkMohammedRTea4\Cnn\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="setupDriver" is-config="true" duration-ms="7124" started-at="2019-10-05T11:06:25Z" finished-at="2019-10-05T11:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cnn.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[77.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="initialize" is-config="true" duration-ms="1293" started-at="2019-10-05T11:06:32Z" finished-at="2019-10-05T11:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="4" started-at="2019-10-05T11:06:33Z" finished-at="2019-10-05T11:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.clickOnMarket() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="clickOnMarket()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="clickOnMarket" duration-ms="5927" started-at="2019-10-05T11:06:33Z" finished-at="2019-10-05T11:06:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify Go To Market in Business Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnMarket -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="240" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMarket status=SUCCESS method=TestHomPage.clickOnMarket()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify Go To Market in Business Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.homebuttontest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="homebuttontest()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="homebuttontest" duration-ms="124" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomPage  Veryfy Home Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homebuttontest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="39" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homebuttontest status=SUCCESS method=TestHomPage.homebuttontest()[pri:0, instance:testhompage.TestHomPage@97e1986] output=TestHomPage  Veryfy Home Button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="imageTesting1()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="imageTesting1" duration-ms="2505" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify IMAGE in Business Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- imageTesting1 -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:39Z" finished-at="2019-10-05T11:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.imageTesting1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2019-10-05T11:06:42Z" finished-at="2019-10-05T11:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageTesting1 status=SUCCESS method=TestHomPage.imageTesting1()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify IMAGE in Business Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:42Z" finished-at="2019-10-05T11:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.menubtn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="menubtn()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="menubtn" duration-ms="1258" started-at="2019-10-05T11:06:42Z" finished-at="2019-10-05T11:06:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify Menu Button in Business Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- menubtn -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2019-10-05T11:06:43Z" finished-at="2019-10-05T11:06:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=menubtn status=SUCCESS method=TestHomPage.menubtn()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify Menu Button in Business Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="nikeTraging()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="nikeTraging" duration-ms="6796" started-at="2019-10-05T11:06:43Z" finished-at="2019-10-05T11:06:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Search forNike]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- nikeTraging -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:43Z" finished-at="2019-10-05T11:06:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.nikeTraging() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="33" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nikeTraging status=SUCCESS method=TestHomPage.nikeTraging()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Search forNike]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.testCurrentUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testCurrentUrl()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="testCurrentUrl" duration-ms="70" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify url in U.S. Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCurrentUrl -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="34" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCurrentUrl status=SUCCESS method=TestHomPage.testCurrentUrl()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify url in U.S. Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="testParenting()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="testParenting" duration-ms="1839" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify Parenting Content in Health Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testParenting -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:50Z" finished-at="2019-10-05T11:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.testParenting()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="33" started-at="2019-10-05T11:06:52Z" finished-at="2019-10-05T11:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testParenting status=SUCCESS method=TestHomPage.testParenting()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify Parenting Content in Health Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="testSetBottomPoliticsCongress()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="testSetBottomPoliticsCongress" duration-ms="3492" started-at="2019-10-05T11:06:52Z" finished-at="2019-10-05T11:06:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify Content Politics Health Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetBottomPoliticsCongress -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:52Z" finished-at="2019-10-05T11:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.testSetBottomPoliticsCongress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="30" started-at="2019-10-05T11:06:56Z" finished-at="2019-10-05T11:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetBottomPoliticsCongress status=SUCCESS method=TestHomPage.testSetBottomPoliticsCongress()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify Content Politics Health Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="testSetBottomWorldAsianews()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="testSetBottomWorldAsianews" duration-ms="1495" started-at="2019-10-05T11:06:56Z" finished-at="2019-10-05T11:06:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify World Asia News in Health Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetBottomWorldAsianews -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:56Z" finished-at="2019-10-05T11:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.testSetBottomWorldAsianews()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="25" started-at="2019-10-05T11:06:57Z" finished-at="2019-10-05T11:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetBottomWorldAsianews status=SUCCESS method=TestHomPage.testSetBottomWorldAsianews()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify World Asia News in Health Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="testSetFirstIMG()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="testSetFirstIMG" duration-ms="1548" started-at="2019-10-05T11:06:57Z" finished-at="2019-10-05T11:06:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hompage  -> Verify IMAGE in Health Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetFirstIMG -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-10-05T11:06:57Z" finished-at="2019-10-05T11:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhompage.TestHomPage.testSetFirstIMG()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhompage.TestHomPage@97e1986]" name="afterEachTestMethod" is-config="true" duration-ms="34" started-at="2019-10-05T11:06:59Z" finished-at="2019-10-05T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetFirstIMG status=SUCCESS method=TestHomPage.testSetFirstIMG()[pri:0, instance:testhompage.TestHomPage@97e1986] output=Hompage  -> Verify IMAGE in Health Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="init" is-config="true" duration-ms="1066" started-at="2019-10-05T11:06:59Z" finished-at="2019-10-05T11:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="quitDriver" is-config="true" duration-ms="2677" started-at="2019-10-05T11:07:00Z" finished-at="2019-10-05T11:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testhompage.TestHomPage@97e1986]" name="generateReport" is-config="true" duration-ms="22" started-at="2019-10-05T11:07:02Z" finished-at="2019-10-05T11:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testhompage.TestHomPage -->
+    </test> <!-- CnnHome -->
+  </suite> <!-- cnn -->
+</testng-results>

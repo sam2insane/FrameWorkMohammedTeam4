@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Alibaba]">
+  <parameter name="cloud" value="false"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="77"/>
+  <parameter name="platform" value="windows"/>
+  <parameter name="url" value="https://www.alibaba.com/"/>
+  <test thread-count="5" verbose="0" name="AliBaba(failed)">
+    <parameter name="url" value="https://www.alibaba.com/"/>
+    <classes>
+      <class name="testusahomepage.TestUsaHomepage">
+        <methods>
+          <include name="clickagriculture"/>
+          <include name="afterEachTestMethod"/>
+          <include name="navigate"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="setupDriver"/>
+          <include name="initialize"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testusahomepage.TestUsaHomepage -->
+      <class name="testhomepage.TestHomePage">
+        <methods>
+          <include name="clickcategoris"/>
+          <include name="clickonsearch"/>
+          <include name="initialize"/>
+          <include name="clicksolutions"/>
+          <include name="afterEachTestMethod"/>
+          <include name="clicklanguage"/>
+          <include name="clickonhelp"/>
+          <include name="navigate"/>
+          <include name="clickonmembership"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="clickconsumer"/>
+          <include name="clicksports"/>
+          <include name="generateReport"/>
+          <include name="clickjacket"/>
+          <include name="searchfor"/>
+          <include name="clickgetapp"/>
+        </methods>
+      </class> <!-- testhomepage.TestHomePage -->
+    </classes>
+  </test> <!-- AliBaba(failed) -->
+</suite> <!-- Failed suite [Alibaba] -->

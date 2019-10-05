@@ -5,13 +5,11 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
-
-
+import reporting.TestLogger;
 public class HomePage extends CommonAPI {
     @FindBy(xpath ="//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[4]/a[1]")
     WebElement machinary;
-    @FindBy(xpath = "//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[1]/a[1]")
+    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[4]/div/div[1]/div/div/h3")
     WebElement consumer;
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h2[1]/a[1]")
     WebElement blackview;
@@ -29,9 +27,9 @@ public class HomePage extends CommonAPI {
     WebElement androidphone;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[2]/div[1]/div[1]/div[1]/h3[1]")
     WebElement categories;
-    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[5]/ul[1]/li[3]/a[1]")
+    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[4]/div/div[1]/div/div/h3")
     WebElement tradeshows;
-    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[5]/ul[1]/li[5]/a[1]")
+    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[4]/div/div[1]/div/div/h3")
     WebElement getapp;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]")
     WebElement language;
@@ -51,7 +49,7 @@ public class HomePage extends CommonAPI {
     WebElement homekicthen;
     @FindBy(xpath = "//*[@id=\"scc-category-unit-index\"]/div[1]/ul[1]/li[8]/a[1]")
     WebElement shoes;
-    @FindBy(xpath = "//*[@class='item-image zoom-wrap']")
+    @FindBy(xpath = "")
     WebElement jacket;
     @FindBy(xpath ="//*[@id=\"recommendation-for-you\"]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/h2[1]/a[1]" )
     WebElement huwaeimobile;
@@ -98,32 +96,38 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"recommendation-for-you\"]/div[2]/div/div/div[8]/div/div/div[2]/h2/a")
     WebElement bed;
     public void setBed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         bed.click();
     }
     public void setReadytoship(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         readytoship.click();
     }
-    public void setBuissnesidentity(){buissnesidentity.click();}
+    public void setBuissnesidentity(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        buissnesidentity.click();}
     public void setSitemap(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         if(sitemap.isDisplayed())
             sitemap.click();
         String title = driver.getTitle();
         System.out.println(title);
     }
     public void setReport(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         report.click();
     }
-
     public void setLearningcenter(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         if(learningcenter.isDisplayed())
             learningcenter.click();
         String url = driver.getCurrentUrl();
         System.out.println(url);
     }
     public void setPolicy(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         policy.click();
     }
-
     public void setAllcategori(){
         allcategori.click();
     }
@@ -177,7 +181,6 @@ public class HomePage extends CommonAPI {
             System.out.println("passed");
         }else
             System.out.println("Failed");
-
         vietnum.click();
     }
     public void setIndia(){
@@ -185,46 +188,31 @@ public class HomePage extends CommonAPI {
 
     public void setIphonexr(){
         iphonexr.click();
-
     }
     public void setSearchh(String name){
         if(search.isEnabled())
             search.sendKeys(name, Keys.ENTER);
-
     }
-
     public void setSphone(){
         if(Sphone.isDisplayed()){
             System.out.println("passed");
         }else
             System.out.println("Failed");
     }
-
-
     public void setHuwaeimobile(){
         huwaeimobile.click();
     }
 
     public void setJacket(){
-        jacket.click();
-        if(jacket.isDisplayed()) {
-            System.out.println("passed");
-        }else
-            System.out.println("failed");
-
+        if (search.isEnabled());
+        search.sendKeys("jacket");
     }
-
-
-
-
     public void setShoes(){
          if(shoes.isDisplayed())
              shoes.click();
          String title =driver.getTitle();
         System.out.println(title );
     }
-
-
     public void setHomekicthen(){
         if(homekicthen.isDisplayed())
             homekicthen.click();
@@ -234,9 +222,6 @@ public class HomePage extends CommonAPI {
     public void setSports(){
         sports.click();
     }
-
-
-
     public void setApparel(){
         Apparel.click();
     }
@@ -246,51 +231,37 @@ public class HomePage extends CommonAPI {
             search.sendKeys(name, Keys.ENTER);
         Thread.sleep(2000);
     }
-
 //    public void setProducts(){
 //        if(products.isDisplayed())
 //            System.out.println("Paased");
 //    }
-
     public void setHelpcommuinity(){
         if(helpcommuinity.isDisplayed())
             helpcommuinity.click();
     }
-
     public void setServiceandmembership(){
         serviceandmembership.click();
-
     }
     public void setSourcingSolution(){
         if(SourcingSolution.isDisplayed())
             System.out.println("passed");
     }
-
     public void setLanguage(){
         if(language.isDisplayed())
             Assert.assertTrue(true);
-
     }
-
     public void setGetapp(){
         getapp.click();
         String title = driver.getTitle();
         System.out.println(title);
-
     }
-
     public void setTradeshows(){
         tradeshows.click();
         Assert.assertTrue(true);
     }
-
-
     public void setCategoris(){
     if(categories.isDisplayed())
         categories.click();
-
-
-
     }
     public void setSingIn(){
         singIn.click();
@@ -322,8 +293,4 @@ public class HomePage extends CommonAPI {
     public void setoukitel(){
         oukitel.click();
     }
-    
-
-
-
 }

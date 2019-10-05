@@ -23,14 +23,11 @@ public class TestFurniturePage extends CommonAPI {
     public void navigate(){
         driver.navigate().to(url);
     }
-
    @Test (priority = 8)
     public void testHoverToCategories(){
         testfurniturepage.setHoverToCategories();
     }
-
     @Test(priority = 4)
-
     public void setfunctionalfurniture(){
         WebElement element = driver.findElement(By.linkText("Antique Furniture"));
         Actions action = new Actions(driver);
@@ -65,6 +62,14 @@ public class TestFurniturePage extends CommonAPI {
     @Test(priority = 1)
     public void CheckMessages() {
         testfurniturepage.CheckMyMessages();
+    }
+    @Test
+    public void SetChildrenFurniture(){
+        testfurniturepage.setChildrenfurniture();
+    }
+    @Test
+    public void setCommercial(){
+        testfurniturepage.setCommercialfurniture();
     }
 
 

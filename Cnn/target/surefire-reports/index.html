@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-cnn">
+              <span class="suite-name border-passed">cnn</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-cnn">
+                    <span>C:\Users\samia\IdeaProjects\FrameWorkMohammedRTea4\Cnn\target\test-classes\cnnRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-cnn">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-cnn">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-cnn">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-cnn">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-cnn">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-cnn">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-cnn" class="hide-methods passed suite-cnn"> (hide)</a> <!-- hide-methods passed suite-cnn -->
+                      <a href="#" panel-name="suite-cnn" class="show-methods passed suite-cnn"> (show)</a> <!-- show-methods passed suite-cnn -->
+                    </span>
+                    <div class="method-list-content passed suite-cnn">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="clickOnMarket">clickOnMarket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="homebuttontest">homebuttontest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="imageTesting1">imageTesting1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="menubtn">menubtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="nikeTraging">nikeTraging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="testCurrentUrl">testCurrentUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="testParenting">testParenting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="testSetBottomPoliticsCongress">testSetBottomPoliticsCongress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="testSetBottomWorldAsianews">testSetBottomWorldAsianews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-cnn" title="testhompage.TestHomPage" hash-for-method="testSetFirstIMG">testSetFirstIMG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-cnn -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-cnn" class="panel cnn">
+          <div class="suite-cnn-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testhompage.TestHomPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnMarket">
+                  </a> <!-- clickOnMarket -->
+                  <span class="method-name">clickOnMarket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homebuttontest">
+                  </a> <!-- homebuttontest -->
+                  <span class="method-name">homebuttontest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageTesting1">
+                  </a> <!-- imageTesting1 -->
+                  <span class="method-name">imageTesting1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menubtn">
+                  </a> <!-- menubtn -->
+                  <span class="method-name">menubtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nikeTraging">
+                  </a> <!-- nikeTraging -->
+                  <span class="method-name">nikeTraging</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCurrentUrl">
+                  </a> <!-- testCurrentUrl -->
+                  <span class="method-name">testCurrentUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testParenting">
+                  </a> <!-- testParenting -->
+                  <span class="method-name">testParenting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetBottomPoliticsCongress">
+                  </a> <!-- testSetBottomPoliticsCongress -->
+                  <span class="method-name">testSetBottomPoliticsCongress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetBottomWorldAsianews">
+                  </a> <!-- testSetBottomWorldAsianews -->
+                  <span class="method-name">testSetBottomWorldAsianews</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetFirstIMG">
+                  </a> <!-- testSetFirstIMG -->
+                  <span class="method-name">testSetFirstIMG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-cnn-class-passed -->
+        </div> <!-- panel cnn -->
+        <div panel-name="test-xml-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\samia\IdeaProjects\FrameWorkMohammedRTea4\Cnn\target\test-classes\cnnRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;cnn&quot;&gt;
+  &lt;parameter name=&quot;cloud&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;envName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;77.0&quot;/&gt;
+  &lt;parameter name=&quot;platform&quot; value=&quot;windows&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.cnn.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;CnnHome&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testhompage.TestHomPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CnnHome --&gt;
+&lt;/suite&gt; &lt;!-- cnn --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for cnn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CnnHome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for cnn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for cnn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_cnn');
+function tableData_cnn() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'nikeTraging')
+data.setCell(0, 2, 'testhompage.TestHomPage')
+data.setCell(0, 3, 6796);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnMarket')
+data.setCell(1, 2, 'testhompage.TestHomPage')
+data.setCell(1, 3, 5927);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSetBottomPoliticsCongress')
+data.setCell(2, 2, 'testhompage.TestHomPage')
+data.setCell(2, 3, 3492);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'imageTesting1')
+data.setCell(3, 2, 'testhompage.TestHomPage')
+data.setCell(3, 3, 2505);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testParenting')
+data.setCell(4, 2, 'testhompage.TestHomPage')
+data.setCell(4, 3, 1839);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSetFirstIMG')
+data.setCell(5, 2, 'testhompage.TestHomPage')
+data.setCell(5, 3, 1548);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSetBottomWorldAsianews')
+data.setCell(6, 2, 'testhompage.TestHomPage')
+data.setCell(6, 3, 1495);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'menubtn')
+data.setCell(7, 2, 'testhompage.TestHomPage')
+data.setCell(7, 3, 1258);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'homebuttontest')
+data.setCell(8, 2, 'testhompage.TestHomPage')
+data.setCell(8, 3, 124);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCurrentUrl')
+data.setCell(9, 2, 'testhompage.TestHomPage')
+data.setCell(9, 3, 70);
+window.suiteTableData['cnn']= { tableData: data, tableDiv: 'times-div-cnn'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-cnn">
+              </div> <!-- times-div-cnn -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for cnn</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">homebuttontest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestHomPage  Veryfy Home Button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">menubtn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify Menu Button in Business Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testParenting</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify Parenting Content in Health Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSetBottomPoliticsCongress</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify Content Politics Health Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSetFirstIMG</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify IMAGE in Health Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">imageTesting1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify IMAGE in Business Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSetBottomWorldAsianews</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify World Asia News in Health Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCurrentUrl</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify url in U.S. Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickOnMarket</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Verify Go To Market in Business Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">nikeTraging</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hompage  -> Search forNike</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-cnn" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhompage.TestHomPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@18bc345)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupDriver(windows, https://www.cnn.com/, chrome, false, 77.0, browserstack)</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">7212 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.clickOnMarket() throws java.lang.Exception)</span>
+                <span class="method-start">8512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnMarket</span>
+                <span class="method-start">8516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=clickOnMarket status=SUCCESS method=TestHomPage.clickOnMarket()[pri:0, instance:tes...)</span>
+                <span class="method-start">14444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.homebuttontest())</span>
+                <span class="method-start">14685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homebuttontest</span>
+                <span class="method-start">14686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homebuttontest status=SUCCESS method=TestHomPage.homebuttontest()[pri:0, instance:t...)</span>
+                <span class="method-start">14810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.imageTesting1() throws java.lang.Exception)</span>
+                <span class="method-start">14850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">imageTesting1</span>
+                <span class="method-start">14850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=imageTesting1 status=SUCCESS method=TestHomPage.imageTesting1()[pri:0, instance:tes...)</span>
+                <span class="method-start">17355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.menubtn() throws java.lang.Exception)</span>
+                <span class="method-start">17396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">menubtn</span>
+                <span class="method-start">17396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=menubtn status=SUCCESS method=TestHomPage.menubtn()[pri:0, instance:testhompage.Tes...)</span>
+                <span class="method-start">18654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.nikeTraging() throws java.lang.Exception)</span>
+                <span class="method-start">18694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nikeTraging</span>
+                <span class="method-start">18694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=nikeTraging status=SUCCESS method=TestHomPage.nikeTraging()[pri:0, instance:testhom...)</span>
+                <span class="method-start">25490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.testCurrentUrl())</span>
+                <span class="method-start">25523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCurrentUrl</span>
+                <span class="method-start">25523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCurrentUrl status=SUCCESS method=TestHomPage.testCurrentUrl()[pri:0, instance:t...)</span>
+                <span class="method-start">25593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.testParenting())</span>
+                <span class="method-start">25627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testParenting</span>
+                <span class="method-start">25627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testParenting status=SUCCESS method=TestHomPage.testParenting()[pri:0, instance:tes...)</span>
+                <span class="method-start">27466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.testSetBottomPoliticsCongress())</span>
+                <span class="method-start">27500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetBottomPoliticsCongress</span>
+                <span class="method-start">27500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSetBottomPoliticsCongress status=SUCCESS method=TestHomPage.testSetBottomPoliti...)</span>
+                <span class="method-start">30992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.testSetBottomWorldAsianews())</span>
+                <span class="method-start">31023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetBottomWorldAsianews</span>
+                <span class="method-start">31023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSetBottomWorldAsianews status=SUCCESS method=TestHomPage.testSetBottomWorldAsia...)</span>
+                <span class="method-start">32518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhompage.TestHomPage.testSetFirstIMG())</span>
+                <span class="method-start">32544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetFirstIMG</span>
+                <span class="method-start">32544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSetFirstIMG status=SUCCESS method=TestHomPage.testSetFirstIMG()[pri:0, instance...)</span>
+                <span class="method-start">34092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">init</span>
+                <span class="method-start">34126 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">35192 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">37896 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,155 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 434.901 s <<< FAILURE! - in TestSuite
+clickcategoris(testhomepage.TestHomePage)  Time elapsed: 20.078 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[2]/div[1]/div[1]/div[1]/h3[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[2]/div[1]/div[1]/div[1]/h3[1]}
+	at testhomepage.TestHomePage.clickcategoris(TestHomePage.java:30)
+
+clickconsumer(testhomepage.TestHomePage)  Time elapsed: 0.045 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <h3 class="header-category-trigger">...</h3> is not clickable at point (76, 20). Other element would receive the click: <a href="//www.alibaba.com/" class="J-sc-hd-i-logo sc-hd-i-logo"></a>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+	at testhomepage.TestHomePage.clickconsumer(TestHomePage.java:136)
+
+clickgetapp(testhomepage.TestHomePage)  Time elapsed: 0.162 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+	at testhomepage.TestHomePage.clickgetapp(TestHomePage.java:40)
+
+clickjacket(testhomepage.TestHomePage)  Time elapsed: 20.058 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]}
+	at testhomepage.TestHomePage.clickjacket(TestHomePage.java:89)
+
+clicklanguage(testhomepage.TestHomePage)  Time elapsed: 20.015 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]}
+	at testhomepage.TestHomePage.clicklanguage(TestHomePage.java:46)
+
+clickonhelp(testhomepage.TestHomePage)  Time elapsed: 20.069 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[3]/span[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[3]/span[1]}
+	at testhomepage.TestHomePage.clickonhelp(TestHomePage.java:59)
+
+clickonmembership(testhomepage.TestHomePage)  Time elapsed: 20.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[2]/span[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[2]/span[1]}
+	at testhomepage.TestHomePage.clickonmembership(TestHomePage.java:55)
+
+clickonsearch(testhomepage.TestHomePage)  Time elapsed: 20.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]}
+	at testhomepage.TestHomePage.clickonsearch(TestHomePage.java:67)
+
+clicksolutions(testhomepage.TestHomePage)  Time elapsed: 20.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[1]/span[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[1]/div[3]/ul[1]/li[1]/span[1]}
+	at testhomepage.TestHomePage.clicksolutions(TestHomePage.java:51)
+
+clicksports(testhomepage.TestHomePage)  Time elapsed: 0.041 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="category-item util-ellipsis" target="_blank" href="//www.alibaba.com/Timepieces-Jewelry-Eyewear_p36" title="Timepieces, Jewelry, Eyewear">...</a> is not clickable at point (208, 20). Other element would receive the click: <div class="sticky-content">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+	at testhomepage.TestHomePage.clicksports(TestHomePage.java:80)
+
+searchfor(testhomepage.TestHomePage)  Time elapsed: 20.053 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9c16047e9af720c2fb791b1af901fd
+*** Element info: {Using=xpath, value=//*[@id="J_SC_header"]/header[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]}
+	at testhomepage.TestHomePage.searchfor(TestHomePage.java:109)
+
+clickagriculture(testusahomepage.TestUsaHomepage)  Time elapsed: 20.074 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div/div[2]/div[1]/div[3]/div/div/div[1]/div/div[1]/div/div[1]/a"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc98ef6d85df84c525edc4de95419d21
+*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div[1]/div[3]/div/div/div[1]/div/div[1]/div/div[1]/a}
+	at testusahomepage.TestUsaHomepage.clickagriculture(TestUsaHomepage.java:27)
+

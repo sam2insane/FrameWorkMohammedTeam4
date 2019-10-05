@@ -3,6 +3,7 @@ package regression;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class EbayDeals extends CommonAPI {
 
@@ -21,9 +22,11 @@ public class EbayDeals extends CommonAPI {
 
 
     public void setDeals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     Deals.click();
 }
     public void setFeatured(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Deals.click();
         Featured.click();
     }

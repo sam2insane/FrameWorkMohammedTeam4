@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cnn]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="cloud" value="false"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="77.0"/>
+  <parameter name="platform" value="windows"/>
+  <parameter name="url" value="https://www.cnn.com/"/>
+  <test thread-count="5" name="CnnHome(failed)" verbose="0">
+    <classes>
+      <class name="testhompage.TestHomPage">
+        <methods>
+          <include name="testsetStoriestext"/>
+          <include name="testsetaroundtheUsText"/>
+          <include name="glaceAtMarket"/>
+          <include name="testsetStoriestext1"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testSetHouseStoris"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="testParenting"/>
+          <include name="homebuttontest"/>
+          <include name="testCraditCard"/>
+          <include name="testsetLastImg"/>
+          <include name="testsetTable1stImg"/>
+          <include name="testSetStorisSix"/>
+          <include name="testalltextfromUsPage"/>
+          <include name="testSetBottomPoliticsCongress"/>
+          <include name="nikeTraging"/>
+          <include name="testSetTopStoris"/>
+          <include name="testSetbottomWorldAustralia"/>
+          <include name="init"/>
+          <include name="testCurrentUrl"/>
+          <include name="testSetBottomWorldAsianews"/>
+          <include name="startExtent"/>
+          <include name="testTopTitleImage"/>
+          <include name="tradeScrolTest"/>
+          <include name="quitDriver"/>
+          <include name="testsetImage"/>
+          <include name="pageTech"/>
+          <include name="generateReport"/>
+          <include name="testSetFirstIMG"/>
+          <include name="testSetPopulerSixthTopic"/>
+          <include name="testsetclickingonfb"/>
+          <include name="initialize"/>
+          <include name="menubtn"/>
+          <include name="testSetPaidPartnerIMG"/>
+          <include name="testsetBottomTopics"/>
+        </methods>
+      </class> <!-- testhompage.TestHomPage -->
+    </classes>
+  </test> <!-- CnnHome(failed) -->
+</suite> <!-- Failed suite [cnn] -->

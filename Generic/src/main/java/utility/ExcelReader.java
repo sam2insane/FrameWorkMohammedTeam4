@@ -17,12 +17,12 @@ public class ExcelReader {
     public static void main(String[] args) throws IOException {
         ExcelReader excelReader = new ExcelReader();
         System.out.println("Multiple *******");
-        String[] data = excelReader.getValueByColumn("/Users/peoplentech/Documents/WeekDays-February/WebAutomation/Generic/src/main/resources/Book.xls");
+        String[] data = excelReader.getValueByColumn("C:\\Users\\samia\\IdeaProjects\\FrameWorkMohammedRTea4\\Generic\\src\\main\\java\\Book.xls");
         for (int a = 1; a < data.length; a++) {
             System.out.println(data[a]);
         }
         System.out.println("Specific ********");
-        String fileReader2 = excelReader.getValueOf("/Users/peoplentech/Documents/WeekDays-February/WebAutomation/Generic/src/main/resources/Book.xls", 0, 1);
+        String fileReader2 = excelReader.getValueOf("C:\\Users\\samia\\IdeaProjects\\FrameWorkMohammedRTea4\\Generic\\src\\main\\java\\Book.xls", 0, 1);
         System.out.println(fileReader2);
     }
 

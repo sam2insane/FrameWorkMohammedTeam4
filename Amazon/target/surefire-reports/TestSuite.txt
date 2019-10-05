@@ -1,0 +1,299 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 496.721 s <<< FAILURE! - in TestSuite
+clickonsellTab(testhomepage.Testhomepage)  Time elapsed: 20.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[class='nav-a']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06aa6f0109155dca69804d9bba7739ef
+*** Element info: {Using=xpath, value=//*[class='nav-a']}
+	at testhomepage.Testhomepage.clickonsellTab(Testhomepage.java:49)
+
+clickonyourorders(testhomepage.Testhomepage)  Time elapsed: 20.014 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[class='a-size-medium a-link-normal a-text-bold']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06aa6f0109155dca69804d9bba7739ef
+*** Element info: {Using=xpath, value=//*[class='a-size-medium a-link-normal a-text-bold']}
+	at testhomepage.Testhomepage.clickonyourorders(Testhomepage.java:79)
+
+clickonyouramazon(testhomepage.Testhomepage)  Time elapsed: 20.039 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nav-your-amazon']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06aa6f0109155dca69804d9bba7739ef
+*** Element info: {Using=xpath, value=//*[@id='nav-your-amazon']}
+	at testhomepage.Testhomepage.clickonyouramazon(Testhomepage.java:105)
+
+clickonblumega(testhamburger.Testhamburger)  Time elapsed: 20.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span}
+	at testhamburger.Testhamburger.clickonblumega(Testhamburger.java:51)
+
+clickonaddtocart(testhamburger.Testhamburger)  Time elapsed: 20.06 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="add-to-cart-button"]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="add-to-cart-button"]}
+	at testhamburger.Testhamburger.clickonaddtocart(Testhamburger.java:55)
+
+clickonnothanks(testhamburger.Testhamburger)  Time elapsed: 20.019 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attachSiNoCoverage-announce"]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="attachSiNoCoverage-announce"]}
+	at testhamburger.Testhamburger.clickonnothanks(Testhamburger.java:59)
+
+clickonproceed(testhamburger.Testhamburger)  Time elapsed: 20.024 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attach-sidesheet-checkout-button"]/span/input"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="attach-sidesheet-checkout-button"]/span/input}
+	at testhamburger.Testhamburger.clickonproceed(Testhamburger.java:67)
+
+clickonemail(testhamburger.Testhamburger)  Time elapsed: 20.048 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ap_email"]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="ap_email"]}
+	at testhamburger.Testhamburger.clickonemail(Testhamburger.java:71)
+
+clickonpass(testhamburger.Testhamburger)  Time elapsed: 20.009 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ap_password"]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@id="ap_password"]}
+	at testhamburger.Testhamburger.clickonpass(Testhamburger.java:75)
+
+clickonyourname(testhamburger.Testhamburger)  Time elapsed: 20.048 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='customerName']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@name='customerName']}
+	at testhamburger.Testhamburger.clickonyourname(Testhamburger.java:87)
+
+clickonemail2(testhamburger.Testhamburger)  Time elapsed: 20.055 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@type='email']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+*** Element info: {Using=xpath, value=//*[@type='email']}
+	at testhamburger.Testhamburger.clickonemail2(Testhamburger.java:91)
+
+clickonpass2(testhamburger.Testhamburger)  Time elapsed: 0.042 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="javascript: void(0)" aria-label="Open Menu" id="nav-hamburger-menu" role="button" tabindex="5">...</a> is not clickable at point (26, 25). Other element would receive the click: <div id="hmenu-customer-profile-left" class="hmenu-avatar-icon">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+	at testhamburger.Testhamburger.clickonpass2(Testhamburger.java:95)
+
+clickonreenterpass(testhamburger.Testhamburger)  Time elapsed: 0.057 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/ref=nav_logo" class="nav-logo-link" aria-label="Amazon" tabindex="6">...</a> is not clickable at point (100, 28). Other element would receive the click: <div id="hmenu-customer-name">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5e48fcb0d4e9b4f249f252957d35e4f
+	at testhamburger.Testhamburger.clickonreenterpass(Testhamburger.java:99)
+
+clickonamazondevice(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.041 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="widgetFilters"]/div[1]/div[2]/span[1]/div/label/span"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="widgetFilters"]/div[1]/div[2]/span[1]/div/label/span}
+	at testtodaysdeal.Testtodaysdeal.clickonamazondevice(Testtodaysdeal.java:34)
+
+clickonclear(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.04 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="widgetFilters"]/div[2]/span[1]/div/a"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="widgetFilters"]/div[2]/span[1]/div/a}
+	at testtodaysdeal.Testtodaysdeal.clickonclear(Testtodaysdeal.java:38)
+
+clickoncamera(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="widgetFilters"]/div[1]/div[2]/span[10]/div/label/span"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="widgetFilters"]/div[1]/div[2]/span[10]/div/label/span}
+	at testtodaysdeal.Testtodaysdeal.clickoncamera(Testtodaysdeal.java:42)
+
+clickondiscount(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.018 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="widgetFilters"]/div[5]/span[3]/div/a"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="widgetFilters"]/div[5]/span[3]/div/a}
+	at testtodaysdeal.Testtodaysdeal.clickondiscount(Testtodaysdeal.java:46)
+
+clickondiscountitem(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.059 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dealImage"]/div/div/div[2]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="dealImage"]/div/div/div[2]}
+	at testtodaysdeal.Testtodaysdeal.clickondiscountitem(Testtodaysdeal.java:50)
+
+clickonaddtolist(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.04 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='Add to List']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@title='Add to List']}
+	at testtodaysdeal.Testtodaysdeal.clickonaddtolist(Testtodaysdeal.java:54)
+
+clickonforgetpass(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="auth-fpp-link-bottom"]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@id="auth-fpp-link-bottom"]}
+	at testtodaysdeal.Testtodaysdeal.clickonforgetpass(Testtodaysdeal.java:58)
+
+clickonenterphone(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.034 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@tabindex='1']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@tabindex='1']}
+	at testtodaysdeal.Testtodaysdeal.clickonenterphone(Testtodaysdeal.java:62)
+
+clickonenter(testtodaysdeal.Testtodaysdeal)  Time elapsed: 20.016 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@tabindex='1']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc18681a48b06dd1fd87385d282aed91
+*** Element info: {Using=xpath, value=//*[@tabindex='1']}
+	at testtodaysdeal.Testtodaysdeal.clickonenter(Testtodaysdeal.java:66)
+
+clickontype(testsignin.TestSignIn)  Time elapsed: 20.024 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='ap_email']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-5846SF8B', ip: '192.168.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\samia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 542e2b0fea92b655ff635703d93b4290
+*** Element info: {Using=xpath, value=//*[@id='ap_email']}
+	at testsignin.TestSignIn.clickontype(TestSignIn.java:32)
+

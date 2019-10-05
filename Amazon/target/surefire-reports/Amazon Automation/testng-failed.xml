@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon Automation]">
+  <parameter name="cloud" value="false"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="77"/>
+  <parameter name="platform" value="windows"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <test thread-count="5" verbose="0" name="Amazon home(failed)">
+    <classes>
+      <class name="testtodaysdeal.Testtodaysdeal">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="clickonenter"/>
+          <include name="setupDriver"/>
+          <include name="init"/>
+          <include name="startExtent"/>
+          <include name="quitDriver"/>
+          <include name="clickonaddtolist"/>
+          <include name="clickoncamera"/>
+          <include name="clickondiscountitem"/>
+          <include name="initialize"/>
+          <include name="clickonenterphone"/>
+          <include name="clickonclear"/>
+          <include name="generateReport"/>
+          <include name="clickonforgetpass"/>
+          <include name="clickondiscount"/>
+          <include name="clickonamazondevice"/>
+        </methods>
+      </class> <!-- testtodaysdeal.Testtodaysdeal -->
+      <class name="testhamburger.Testhamburger">
+        <methods>
+          <include name="clickonnothanks"/>
+          <include name="clickonaddtocart"/>
+          <include name="clickonyourname"/>
+          <include name="afterEachTestMethod"/>
+          <include name="clickonpass2"/>
+          <include name="initialize"/>
+          <include name="clickonemail"/>
+          <include name="extentSetup"/>
+          <include name="clickonblumega"/>
+          <include name="clickonemail2"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="quitDriver"/>
+          <include name="clickonpass"/>
+          <include name="init"/>
+          <include name="clickonreenterpass"/>
+          <include name="generateReport"/>
+          <include name="clickonproceed"/>
+        </methods>
+      </class> <!-- testhamburger.Testhamburger -->
+      <class name="testhomepage.Testhomepage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="init"/>
+          <include name="clickonyourorders"/>
+          <include name="clickonyouramazon"/>
+          <include name="clickonsellTab"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="initialize"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testhomepage.Testhomepage -->
+      <class name="testsignin.TestSignIn">
+        <methods>
+          <include name="clickontype"/>
+          <include name="init"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialize"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testsignin.TestSignIn -->
+    </classes>
+  </test> <!-- Amazon home(failed) -->
+</suite> <!-- Failed suite [Amazon Automation] -->
