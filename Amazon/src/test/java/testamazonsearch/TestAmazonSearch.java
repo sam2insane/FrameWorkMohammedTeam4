@@ -17,40 +17,13 @@ public class TestAmazonSearch extends CommonAPI {
     public void initialize() throws Exception {
         testsearch = PageFactory.initElements(driver,AmazonSearch .class);
         driver.get(url);
-
-
     }
-
     @AfterClass
     public void init() {
-
         driver.get(url);
-
     }
-//    @Test(priority = 41)
-//    public void clickonsearchbutton(){
-//        testsearch.setSearchButton("iphones");
-//    }
-//    @Test(priority = 42)
-//    public void clickongo(){
-//        testsearch.setGo();
-//        driver.navigate().to(url);
-//    }
-//    @Test(priority = 43)
-//    public void clickonsearch(){
-//        testsearch.setSearch();
-//    }
     @Test(priority = 44)
     public void clickontype()  {
         testsearch.settype("samsung");
-
     }
-//    @Test(priority = 45)
-//    public void clickonrun() {
-//        testsearch.setRun();
-//    }
-
-
-
-
 }

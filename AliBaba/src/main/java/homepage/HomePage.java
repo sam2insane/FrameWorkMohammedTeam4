@@ -231,10 +231,6 @@ public class HomePage extends CommonAPI {
             search.sendKeys(name, Keys.ENTER);
         Thread.sleep(2000);
     }
-//    public void setProducts(){
-//        if(products.isDisplayed())
-//            System.out.println("Paased");
-//    }
     public void setHelpcommuinity(){
         if(helpcommuinity.isDisplayed())
             helpcommuinity.click();
@@ -288,7 +284,6 @@ public class HomePage extends CommonAPI {
         if(foldphone.isDisplayed())
             Assert.assertTrue(true);
         foldphone.click();
-
     }
     public void setoukitel(){
         oukitel.click();

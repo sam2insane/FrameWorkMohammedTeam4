@@ -24,8 +24,6 @@ public class Hamburger extends CommonAPI {
     WebElement addtocart;
     @FindBy(xpath = "//*[@id=\"attachSiNoCoverage-announce\"]")
     WebElement nothanks;
-   // @FindBy(xpath = "//*[@id=\"attach-sidesheet-view-cart-button\"]/span/input")
-    //WebElement cart;
     @FindBy(xpath = "//*[@id=\"attach-sidesheet-checkout-button\"]/span/input")
     WebElement proceed;
     @FindBy(xpath = "//*[@id=\"ap_email\"]")
@@ -44,10 +42,6 @@ public class Hamburger extends CommonAPI {
     WebElement pass2;
     @FindBy(xpath = "//*[@tabindex='6']")
     WebElement reenterpass;
-
-
-
-
     public void setHamburger() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         hamburger.click();

@@ -16,16 +16,11 @@ public class Testhamburger extends CommonAPI {
     public void initialize() {
         testhamburger = PageFactory.initElements(driver,Hamburger .class);
         driver.get(url);
-
-
     }
-
     @AfterClass
     public void init() {
-
         driver.get(url);
     }
-
     @Test(priority = 14)
     public void clickonhamburger() {
         testhamburger.setHamburger();
@@ -58,10 +53,6 @@ public class Testhamburger extends CommonAPI {
     public void clickonnothanks(){
         testhamburger.setNothanks();
     }
-   // @Test(priority = 22)
-    //public void clickoncart(){
-      //  testamazon1.setCart();
-    //}
     @Test(priority = 22)
     public void clickonproceed(){
         testhamburger.setProceed();
@@ -98,9 +89,4 @@ public class Testhamburger extends CommonAPI {
     public void clickonreenterpass(){
         testhamburger.setReenterpass();
     }
-
-
-
-
-
 }

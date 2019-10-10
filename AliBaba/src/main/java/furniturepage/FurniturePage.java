@@ -1,16 +1,16 @@
 package furniturepage;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
-
 public class FurniturePage extends CommonAPI {
    @FindBy(xpath = "/html/body/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/div[2]/div[7]/a/div[1]")
     WebElement HomeFurniture;
-   @FindBy(xpath = "//*[@id=\"3856750380\"]/div/div[2]/div/div/div/div[2]/div/div")
+   @FindBy(xpath = "/html/body/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/div[2]/div[5]/a/div[1]")
    WebElement Functionalfurniture;
    @FindBy(xpath = "/html/body/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/div[2]/div[3]/a/div[1]")
    WebElement commercialfurniture;
@@ -20,6 +20,10 @@ public class FurniturePage extends CommonAPI {
    WebElement search;
    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[2]/div[3]/div[2]/div[1]/div/a")
    WebElement order;
+   @FindBy (xpath = "")
+   WebElement DropDown;
+   @FindBy (xpath = "//*[@id=\"J_SC_header\"]/header/div[2]/div[1]/div/div/div/ul/li[5]/div[1]/a[2]")
+   WebElement Lights;
 
    public void setOrder() {
        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -53,14 +57,26 @@ public class FurniturePage extends CommonAPI {
    }
    public void setHoverToCategories() {
        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-       clickByXpath("//*[@id=\"J_SC_header\"]/header/div[4]/div/div[1]/div/div/h3");
+       clickByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[1]/div/div/h3/span");
        sleepFor(2);
-       clickByXpath("//*[@id=\"J_SC_header\"]/header/div[4]/div/div[1]/div/div/div/ul/li[4]/div[1]/a[3]");
+       clickByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[1]/div/div/div/a");
    }
    public void CheckMyMessages() {
        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-      mouseHoverByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[3]/div[1]/div[1]/div[3]/a");
-       sleepFor(5);
-       clickByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[3]/div[1]/div[2]/a[2]");
+      clickByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[3]/div[1]/div[1]/div[3]/a");
+
    }
+
+    public void setChildrenfurniture(WebElement childrenfurniture) {
+        this.childrenfurniture = childrenfurniture;
+    }
+    public void DropDownTest() {
+       mouseHoverByXpath("//*[@id=\"J_SC_header\"]/header/div[2]/div[1]/div/div/h3/i[1]");
+       if (Lights.isDisplayed())
+           Lights.getText();
+    }
+    public void DropDownInfo() {
+
+
+    }
 }

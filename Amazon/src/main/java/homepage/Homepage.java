@@ -9,12 +9,11 @@ public class Homepage extends CommonAPI {
 
     @FindBy(xpath = "//*[@id='twotabsearchtextbox']")
     WebElement search;
-
     @FindBy(xpath = "//*[@id='nav-hamburger-menu']")
     WebElement hamburger;
     @FindBy(xpath = "//*[@id='nav-orders']/span[2]")
     WebElement orderTab;
-    @FindBy(xpath = "//*[class='nav-a']")
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[1]/a")
     WebElement sellTab;
     @FindBy(xpath = "//*[@tabindex='52']")
     WebElement registryTab;
@@ -38,54 +37,35 @@ public class Homepage extends CommonAPI {
     WebElement youramazon;
     @FindBy(xpath = "//*[@id=\"navSwmHoliday\"]/a/img")
     WebElement shopdeals;
-
-
-
-
     public void setSearch() {
         search.click(); }
-
     public void setHamburger() {
-
         hamburger.click(); }
-
     public void setOrderTab() {
         orderTab.click(); }
-
     public void setSellTab() {
         sellTab.click(); }
-
     public void setRegistryTab() {
         registryTab.click(); }
-
     public void setHelpTab() {
         helpTab.click(); }
-
     public void setGiftcards() {
         giftcards.click(); }
-
     public void setTodaysdeals() {
         todaysdeals.click(); }
-
     public void setYourorders() {
         yourorders.click(); }
-
     public void setTryprime(){
         tryprime.click();}
-
     public void setCart(){
         cart.click();}
-
     public void setAccount(){
         account.click();}
-
     public void setYouramazon(){
         youramazon.click();}
-
     public void setShopdeals(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         shopdeals.click();}
-
 }
 
 
